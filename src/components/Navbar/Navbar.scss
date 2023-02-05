@@ -5,9 +5,9 @@
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    background-color: rgba(183, 218, 255, 0.567);
+    background-color: rgba(255, 255, 255, 0.068);
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(6px);
     padding: 0px 40px;
     -webkit-backdrop-filter: blur(4px);
     z-index: 2;
@@ -27,7 +27,7 @@
         font-size: 20px;
         margin-left: 10px;
         font-weight: 600;
-        color: var(--gray-color);
+        color: var(--secondary-color);
     }
 
     &:hover{
@@ -101,6 +101,10 @@
 
     opacity: 98%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+    &:hover{
+        border-radius: 20%;
+    }
 
     svg{
         width: 70%;

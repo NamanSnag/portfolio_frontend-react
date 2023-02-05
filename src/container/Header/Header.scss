@@ -68,10 +68,10 @@
         animation: wave 1s infinite ease;
     }
     @keyframes wave {
-        0% {transform: rotate(45deg);}
-        50% {transform: rotate(0deg);}
-        100% {transform: rotate(45deg);}
-    }
+      0% {transform: rotate(45deg);}
+      50% {transform: rotate(0deg);}
+      100% {transform: rotate(45deg);}
+  }
   }
 
   .tag-cmp {
@@ -113,7 +113,7 @@
   justify-content: space-evenly;
   align-items: flex-start;
   height: 100%;
-  margin-left: 1rem;
+  margin-left: 2rem;
 
   div {
     width: 100px;

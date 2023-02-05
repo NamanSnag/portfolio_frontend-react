@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+import { AppWrap} from "../../wrapper"
 import { images } from "../../constants";
 
 import "./Header.scss";
@@ -29,7 +30,7 @@ function Header() {
             <span>👋</span>
             <div style={{ marginLeft: 20 }}>
               <p className="p-text">Hello, I am</p>
-              <h1 className="head-text">Naman Nag</h1>
+              <h1 className="head-text">Naman</h1>
             </div>
           </div>
 
@@ -70,4 +71,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default AppWrap(Header, 'Home');

@@ -36,21 +36,6 @@
     }
   }
   
-  .copyright {
-    width: 100%;
-    padding: 2rem 0 0;
-  
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
-  
-    p {
-      text-transform: uppercase;
-      color: var(--black-color);
-    }
-  }
-  
   .head-text {
     font-size: 2.75rem;
     font-weight: 800;
@@ -73,7 +58,7 @@
   
   .p-text {
     font-size: 0.8rem;
-    text-align: left;
+    text-align: center;
     color: var(--gray-color);
     line-height: 1.5;
   
@@ -99,11 +84,11 @@
   
   .app__social {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
   
-    padding: 1rem;
+    padding: 1.2rem;
   
     div {
       width: 40px;
@@ -180,9 +165,5 @@
     .app__navigation,
     .app__social {
       display: none;
-    }
-  
-    .copyright {
-      padding: 2rem;
     }
   }

@@ -17,11 +17,9 @@ function Footer() {
   const [loading, setLoading] = useState(false);
 
   const { name, email, message } = formData;
-  console.log(formData)
 
   const handleChangeInput = (e) => {
     const { name, value } = e.target;
-    console.log(value)
     setFormData({ ...formData, 
       [name] : value
      });

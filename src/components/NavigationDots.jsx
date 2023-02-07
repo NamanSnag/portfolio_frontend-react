@@ -5,7 +5,7 @@ const NavigationDots = (props) => {
 
   return (
     <div className="app__navigation">
-      {["Home", "About", "Work", "Skills", "Testimonial", "Contact Me"].map((item) => {
+      {["Home", "About", "Work", "Skills", "Testimonial", "Contact"].map((item) => {
         return (
           <li className="app__flex p-text" key={`navLink${item}}`}>
             <a href={`#${item}`}

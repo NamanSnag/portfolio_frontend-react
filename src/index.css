@@ -7,7 +7,7 @@
     --secondary-color: #313bac;
     --black-color: #030303;
     --lightGray-color: #e4e4e4;
-    --gray-color: #5f626c;
+    --gray-color: #353536;
     --brown-color: #46364a;
     --white-color: #ffffff;
   }
@@ -21,8 +21,4 @@
 
   ::-webkit-scrollbar {
     display: none;
-  }
-
-  body {
-    width: 100vw;
   }

@@ -3,7 +3,6 @@ import {HiMenuAlt4, HiX} from 'react-icons/hi';
 import {motion} from 'framer-motion'
 
 import './Navbar.scss'
-import { images } from '../../constants'
 
 function Navbar() {
   const [ toggle, setToggle ] = useState(false);
@@ -11,7 +10,7 @@ function Navbar() {
   return (
     <nav className='app__navbar'>
       <div className='app__navbar-logo'>
-        <img src={images.logo} alt="logo" />
+        <img src="https://cdn-icons-png.flaticon.com/128/0/85.png" alt="logo" />
         <p>Naman Nag</p>
       </div>
       <ul className='app__navbar-links'>

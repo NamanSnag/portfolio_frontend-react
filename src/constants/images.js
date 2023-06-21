@@ -13,7 +13,6 @@ import about04 from '../assets/about04.png';
 
 import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
-import logo from '../assets/logo.png';
 
 const images = {
     email,
@@ -29,7 +28,6 @@ const images = {
     about04,
     profile,
     circle,
-    logo,
   };
 
 export default images;
